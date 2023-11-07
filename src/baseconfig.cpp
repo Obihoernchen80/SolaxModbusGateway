@@ -75,7 +75,7 @@ void BaseConfig::LoadJsonConfig() {
     this->mqtt_port  = 1883;
     this->mqtt_username = "";
     this->mqtt_password = "";
-    this->mqtt_root = "Solax";
+    this->mqtt_root = "Solax MQTT Gateway";
     this->mqtt_basepath = "home/";
     this->mqtt_UseRandomClientID = true;
     this->debuglevel = 0;

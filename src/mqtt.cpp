@@ -17,7 +17,7 @@ server(server), dns(dns), mqtt_root(MqttRoot), mqtt_basepath(MqttBasepath) {
   wifiManager->setConnectTimeout(60);
   wifiManager->setConfigPortalTimeout(300);
   WiFi.setHostname(this->mqtt_root.c_str());
-  Serial.println("WiFi Start");
+  Serial.printf("WiFi Start; connecting to SSID %s \n", APName);
   
   if (!wifiManager->autoConnect(APName, APpassword) ) {
     Serial.println("failed to connect and start configPortal");
