@@ -330,6 +330,13 @@ const char JSON[] PROGMEM = R"=====(
 		"data": {
 			"livedata": [
 				{
+					"position": [7, 8],
+					"name": "GridPower",
+					"realname": "GridPower",
+					"datatype": "integer",
+					"unit": "W"
+				},
+				{
 					"position": [215, 216],
 					"name": "GridVoltage_R",
 					"realname": "Grid Voltage L1",
