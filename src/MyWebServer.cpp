@@ -361,6 +361,11 @@ void MyWebServer::getPage_Status(AsyncResponseStream *response) {
   response->print("<tbody>\n");
 
   response->print("<tr>\n");
+  response->print("<td>MAC:</td>\n");
+  response->printf("<td>%s</td>\n", WiFi.macAddress().c_str());
+  response->print("</tr>\n");
+
+  response->print("<tr>\n");
   response->print("<td>IP-Adresse:</td>\n");
   response->printf("<td>%s</td>\n", WiFi.localIP().toString().c_str());
   response->print("</tr>\n");
@@ -371,8 +376,8 @@ void MyWebServer::getPage_Status(AsyncResponseStream *response) {
   response->print("</tr>\n");
   
   response->print("<tr>\n");
-  response->print("<td>MAC:</td>\n");
-  response->printf("<td>%s</td>\n", WiFi.macAddress().c_str());
+  response->print("<td>WiFi BSSID:</td>\n");
+  response->printf("<td>%s</td>\n", WiFi.BSSIDstr().c_str());
   response->print("</tr>\n");
 
   response->print("<tr>\n");
