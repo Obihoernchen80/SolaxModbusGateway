@@ -1,0 +1,17 @@
+{
+  "data": {
+    "pin_rx": 16,
+    "pin_tx": 17,
+    "pin_rts": 18,
+    "clientid": "1",
+    "baudrate": 19200,
+    "txintervallive": 5,
+    "txintervalid": 3600,
+    "invertertype": "Solax-X3",
+    "enableRelays": 0,
+    "enableOpenWb": 0,
+    "enableCrcCheck": 1,
+    "enableLengthCheck": 1,
+    "enable_setters": 0
+  }
+}

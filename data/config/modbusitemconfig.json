@@ -1,0 +1,307 @@
+{
+  "data":[
+    {
+      "InverterSN": 0
+    },
+    {
+      "InverterManufacturer": 0
+    },
+    {
+      "InverterMachineType": 0
+    },
+    {
+      "InverterMachineStyle": 0
+    },
+    {
+      "InverterPowerType": 0
+    },
+    {
+      "InverterUserPassword": 0
+    },
+    {
+      "InverterAdminPassword": 0
+    },
+    {
+      "OperationMode": 0
+    },
+    {
+      "ManualMode": 0
+    },
+    {
+      "ExportLimit": 0
+    },
+    {
+      "OffGridMute": 0
+    },
+    {
+      "OffGridMinimumSoC": 0
+    },
+    {
+      "MPPT": 0
+    },
+    {
+      "DRMFunction": 0
+    },
+    {
+      "PhaseUnbalancedPowerFeed": 0
+    },
+    {
+      "PgridBias": 0
+    },
+    {
+      "BatChargeMaxCurrent": 0
+    },
+    {
+      "BatDischargeMaxCurrent": 0
+    },
+    {
+      "SelfUseMinSoC": 0
+    },
+    {
+      "SelfUseChargeEnable": 0
+    },
+    {
+      "SelfUseMaxGridSoC": 0
+    },
+    {
+      "FeedInNightChargeSoC": 0
+    },
+    {
+      "FeedInMinSoC": 0
+    },
+    {
+      "BackupNightChargeSoC": 0
+    },
+    {
+      "BackupMinSoC": 0
+    },
+    {
+      "ChargePeriod1_StartTime": 0
+    },
+    {
+      "ChargePeriod1_EndTime": 0
+    },
+    {
+      "DischargePeriod1_StartTime": 0
+    },
+    {
+      "DischargePeriod1_EndTime": 0
+    },
+    {
+      "GridPower": 1
+    },
+    {
+      "PvVoltage1": 1
+    },
+    {
+      "PvVoltage2": 1
+    },
+    {
+      "PvCurrent1": 1
+    },
+    {
+      "PvCurrent2": 1
+    },
+    {
+      "PowerPv1": 1
+    },
+    {
+      "PowerPv2": 1
+    },
+    {
+      "Temperature": 1
+    },
+    {
+      "InverterStatus": 1
+    },
+    {
+      "InverterFaultMessage": 0
+    },
+    {
+      "ManagerFaultMessage": 0
+    },
+    {
+      "BMSFaultMessage": 0
+    },
+    {
+      "InverterSettings": 0
+    },
+    {
+      "ModbusPowerControl": 0
+    },
+    {
+      "GridStatus": 0
+    },
+    {
+      "BatStatus": 0
+    },
+    {
+      "BatVoltage": 1
+    },
+    {
+      "BatCurrent": 1
+    },
+    {
+      "BatPower": 1
+    },
+    {
+      "BatTemp": 1
+    },
+    {
+      "BatCapacity": 1
+    },
+    {
+      "BatUserSoC": 0
+    },
+    {
+      "BatUserSoH": 0
+    },
+    {
+      "BatTargetSoC": 0
+    },
+    {
+      "OutputEnergyChargeToday": 1
+    },
+    {
+      "OutputEnergyChargeKWh": 1
+    },
+    {
+      "OutputEnergyChargeWh": 1
+    },
+    {
+      "InputEnergyChargeToday": 1
+    },
+    {
+      "ChargeEnergyInputTotal": 1
+    },
+    {
+      "InputEnergyChargeWh": 1
+    },
+    {
+      "EnergyFeedin": 1
+    },
+    {
+      "feedinEnergyTotal": 1
+    },
+    {
+      "EnergyConsum": 1
+    },
+    {
+      "consumedEnergyTotal": 1
+    },
+    {
+      "EnergyTodayToGrid": 1
+    },
+    {
+      "EnergyTotalToGridKwh": 1
+    },
+    {
+      "EnergyTotalToGridWh": 1
+    },
+    {
+      "GridVoltage_R": 1
+    },
+    {
+      "GridVoltage_S": 1
+    },
+    {
+      "GridVoltage_T": 1
+    },
+    {
+      "GridCurrent_R": 1
+    },
+    {
+      "GridCurrent_S": 1
+    },
+    {
+      "GridCurrent_T": 1
+    },
+    {
+      "GridPower_R": 1
+    },
+    {
+      "GridPower_S": 1
+    },
+    {
+      "GridPower_T": 1
+    },
+    {
+      "GridFrequency_R": 1
+    },
+    {
+      "GridFrequency_S": 1
+    },
+    {
+      "GridFrequency_T": 1
+    },
+    {
+      "OffGridVoltage_R": 1
+    },
+    {
+      "OffGridVoltage_S": 1
+    },
+    {
+      "OffGridVoltage_T": 1
+    },
+    {
+      "OffGridCurrent_R": 1
+    },
+    {
+      "OffGridCurrent_S": 1
+    },
+    {
+      "OffGridCurrent_T": 1
+    },
+    {
+      "OffGridPowerActive_R": 1
+    },
+    {
+      "OffGridPowerActive_S": 1
+    },
+    {
+      "OffGridPowerActive_T": 1
+    },
+    {
+      "feedinPower": 1
+    },
+    {
+      "FeedInPowerPhase_R": 1
+    },
+    {
+      "FeedInPowerPhase_S": 1
+    },
+    {
+      "FeedInPowerPhase_T": 1
+    },
+    {
+      "OnGridRunTime": 1
+    },
+    {
+      "OffGridRunTime": 1
+    },
+    {
+      "OffGridYieldToday": 1
+    },
+    {
+      "OffGridYieldTotal": 1
+    },
+    {
+      "EChargeToday": 1
+    },
+    {
+      "EChargeTotal": 1
+    },
+    {
+      "SolarEnergyToday": 1
+    },
+    {
+      "SolarEnergyTotal": 1
+    },
+    {
+      "CellVoltageHigh": 1
+    },
+    {
+      "CellVoltageLow": 1
+    }
+  ]
+}

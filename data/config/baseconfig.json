@@ -1,0 +1,12 @@
+{
+    "data": {
+      "mqttroot": "Solax MQTT Gateway",
+      "SelectConnectivity": "wifi",
+      "mqttserver": "192.168.178.39",
+      "mqttport": "1883",
+      "mqttbasepath": "home/inverter/test",
+      "useRandomClientID": 0,
+      "sel_auth": 0,
+      "debuglevel": 2
+    }
+  }
