@@ -43,12 +43,12 @@ void BaseConfig::LoadJsonConfig() {
       if (!error && doc["data"]) {
         this->log(1, doc);
 
-        if (doc["data"]["mqttroot"])         { this->mqtt_root = doc["data"]["mqttroot"].as<String>();} else {this->mqtt_root = "solax";}
-        if (doc["data"]["mqttserver"])       { this->mqtt_server = doc["data"]["mqttserver"].as<String>();} else {this->mqtt_server = "test.mosquitto.org";}
+        if (doc["data"]["mqttroot"])         { this->mqtt_root = doc["data"]["mqttroot"].as<String>();} else {this->mqtt_root = "Solax MQTT Gateway";}
+        if (doc["data"]["mqttserver"])       { this->mqtt_server = doc["data"]["mqttserver"].as<String>();} else {this->mqtt_server = "192.168.178.39";}
         if (doc["data"]["mqttport"])         { this->mqtt_port = doc["data"]["mqttport"].as<uint16_t>();} else {this->mqtt_port = 1883;}
         if (doc["data"]["mqttuser"])         { this->mqtt_username = doc["data"]["mqttuser"].as<String>();} else {this->mqtt_username = "";}
         if (doc["data"]["mqttpass"])         { this->mqtt_password = doc["data"]["mqttpass"].as<String>();} else {this->mqtt_password = "";}
-        if (doc["data"]["mqttbasepath"])     { this->mqtt_basepath = doc["data"]["mqttbasepath"].as<String>();} else {this->mqtt_basepath = "home/";}
+        if (doc["data"]["mqttbasepath"])     { this->mqtt_basepath = doc["data"]["mqttbasepath"].as<String>();} else {this->mqtt_basepath = "home/inverter/test";}
         if (doc["data"]["SelectConnectivity"]){if (strcmp(doc["data"]["SelectConnectivity"], "wifi")==0) { this->useETH=false;} else {this->useETH=true;}} else {this->useETH = false;}
         if (doc["data"]["debuglevel"])       { this->debuglevel = _max(doc["data"]["debuglevel"].as<uint8_t>(), 0);} else {this->debuglevel = 0; }
         if (doc["data"]["SelectLAN"])        { this->LANBoard = doc["data"]["SelectLAN"].as<String>();} else {this->LANBoard = "";}
@@ -71,12 +71,12 @@ void BaseConfig::LoadJsonConfig() {
   }
 
   if (loadDefaultConfig) {
-    this->mqtt_server = "test.mosquitto.org";
+    this->mqtt_server = "192.168.178.39";
     this->mqtt_port  = 1883;
     this->mqtt_username = "";
     this->mqtt_password = "";
-    this->mqtt_root = "Solax";
-    this->mqtt_basepath = "home/";
+    this->mqtt_root = "Solax MQTT Gateway";
+    this->mqtt_basepath = "home/inverter";
     this->mqtt_UseRandomClientID = true;
     this->useETH = false;
     this->debuglevel = 2;
