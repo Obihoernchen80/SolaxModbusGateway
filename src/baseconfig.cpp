@@ -166,4 +166,4 @@ void BaseConfig::log(const int loglevel, const JsonDocument& json) {
     serializeJsonPretty(json, Serial);
     Serial.println();
   #endif
-}
+} 
